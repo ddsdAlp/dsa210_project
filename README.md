@@ -27,7 +27,6 @@ The dataset includes:
 - Viewing History
 - Search History
 - Subscriptions
-- Liked Videos
 - Comments and Live Chats
 - Playlists
 
