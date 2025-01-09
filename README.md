@@ -4,7 +4,8 @@
 DSA210 - Introduction to Data Science Term Project
 
 - This project explores patterns and trends in my Youtube habits by analyzing my viewing history data.
-- You can find the presentation here: 
+- You can find the presentation here:
+- This README file contains some extra information I didn't put in the presentation. Please see the presentation.
 
 ## Motivation
 A significant part of our lives are now lived through our phones, which is why I wanted to analyze my online behaviours and trends. I decided to choose an app that I use frequently whose data will tell a lot about myself, Youtube,
