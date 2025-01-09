@@ -1,11 +1,10 @@
 # dsa210_project
 
 ## Description
--Work in Process-
-
 DSA210 - Introduction to Data Science Term Project
 
-This project explores patterns and trends in my Youtube habits by analyzing my viewing history data.
+- This project explores patterns and trends in my Youtube habits by analyzing my viewing history data.
+- You can find the presentation here: 
 
 ## Motivation
 A significant part of our lives are now lived through our phones, which is why I wanted to analyze my online behaviours and trends. I decided to choose an app that I use frequently whose data will tell a lot about myself, Youtube,
@@ -32,7 +31,7 @@ The dataset includes:
 - Comments and Live Chats
 - Playlists
 
-## Project Plan
+## Data Analysis
 1. Export and Prepare Data
    - Export data through Google Takeout
    - Clean, tweak data to make it structured and ready
@@ -40,9 +39,25 @@ The dataset includes:
    - Visualize the data with charts to show patterns, such as viewed content type or time of day habits
    - Identify patterns in viewing history
    - Analyze the aspects mentioned in the motivation part
-
-## Data Analysis
+3. Hypothesis Testing
+   - Hypothesis: The 5 most watched channels make up more than 10% of the total videos watched.
+   - Test the hypothesis.
+4. ML Model
+   - Create a ml model to predict the total number of videos Im going to watch on a given day.
 
 ## Findings
-
+- Seeing which channels made it to my top 15
+- Seeing in which part of the day I was more active
+- Seeing in which day I was more active
+- Watching a lot of videos in the year 2022
+- My own channel is in my top 15 watched channels :D
+- Finding out that I always change things that I watch and dont stick to one channel.
+- My habits and interest change quickly and its correlation with my viewing habits.
 ## Limitations and Future Work
+- The biggest problem with this project was the fact that the total hours I watched a video wasn't given. The data was about me clicking a video. This is a major issue because it would still be showing the video in the data even if I clicked off from it after one second. This is also the reason why some channels are higher up in my top fifteen, because of constantly clicking on and off videos.
+- If there was a way to track the total hours watched, a more thorough analysis could be done to determine stuff like
+  1. Average watch time of a video
+  2. Average percentage of videos watched
+  3. Hours spent on categories
+  4. Hours spent on top 10 channels.
+- Lets say we have channel A and channel B.Suppose I watched 10 channel A videos where each video was 1 hour long and 20 B videos where each video was 30 seconds long. Currently because of the data set's structure, my top watched channel is the B channel, however it is obvious that I sank more time into channel A.
